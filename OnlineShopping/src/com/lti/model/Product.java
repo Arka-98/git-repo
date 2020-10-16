@@ -5,13 +5,9 @@ public class Product {
 	private int productId;
 	private int productName;
 	private int productDesc;
-	private int productQuant;
 	
 	public Product() {
 		
-	}
-	public int getProductQuant() {
-		return productQuant;
 	}
 	public int getProductId() {
 		return productId;

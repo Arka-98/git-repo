@@ -6,9 +6,13 @@ public class Product {
 	private int productName;
 	private int productDesc;
 	private int productQuant;
+	private double price;
 	
 	public Product() {
 		
+	}
+	public double getPrice() {
+		return price;	
 	}
 	public int getProductQuant() {
 		return productQuant;
